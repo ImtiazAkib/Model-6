@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="semantic.html">Semantic</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="">Contract</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>This is Form</h1>
+    </header>
+    <form action="">
+        <p>
+            Name: <input type="text" name="name" placeholder="Enter your name" id="">
+        </p>
+        <p>
+            Email: <input type="email" name="email" placeholder="Enter your email" id="">
+        </p>
+        <fieldset>
+            <legend>Select your job</legend>
+            <p>
+                <label for="single">
+                    <input type="radio" name="job" id="single">Single
+                </label>
+            </p>
+            <p>
+                <label for="multi">
+                    <input type="radio" name="job" id="multi">Multi
+                </label>
+            </p>
+            <p>
+                <label for="none">
+                    <input type="radio" name="job" id="none">None
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select your timetable</legend>
+            <p><label for="day"><input type="checkbox" name="time" id="day">Day</label></p>
+            <p><label for="night"><input type="checkbox" name="time" id="night">Night</label></p>
+            <p><label for="over"><input type="checkbox" name="time" id="over">Overtime</label></p>
+        </fieldset>
+        <p>Special instruction
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
